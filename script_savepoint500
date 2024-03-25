@@ -1,0 +1,1510 @@
+\set delta 10
+\set aid (random(1, 100000 * :scale))
+BEGIN;
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s1;
+SAVEPOINT s1;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s2;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s3;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s4;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s5;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s6;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s7;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s8;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s9;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s10;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s11;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s12;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s13;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s14;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s15;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s16;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s17;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s18;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s19;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s20;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s21;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s22;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s23;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s24;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s25;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s26;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s27;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s28;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s29;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s30;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s31;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s32;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s33;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s34;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s35;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s36;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s37;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s38;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s39;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s40;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s41;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s42;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s43;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s44;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s45;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s46;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s47;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s48;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s49;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s50;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s51;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s52;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s53;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s54;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s55;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s56;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s57;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s58;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s59;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s60;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s61;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s62;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s63;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s64;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s65;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s66;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s67;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s68;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s69;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s70;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s71;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s72;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s73;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s74;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s75;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s76;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s77;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s78;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s79;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s80;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s81;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s82;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s83;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s84;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s85;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s86;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s87;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s88;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s89;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s90;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s91;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s92;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s93;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s94;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s95;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s96;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s97;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s98;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s99;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s100;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s101;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s102;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s103;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s104;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s105;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s106;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s107;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s108;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s109;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s110;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s111;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s112;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s113;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s114;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s115;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s116;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s117;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s118;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s119;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s120;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s121;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s122;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s123;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s124;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s125;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s126;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s127;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s128;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s129;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s130;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s131;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s132;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s133;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s134;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s135;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s136;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s137;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s138;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s139;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s140;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s141;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s142;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s143;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s144;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s145;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s146;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s147;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s148;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s149;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s150;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s151;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s152;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s153;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s154;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s155;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s156;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s157;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s158;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s159;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s160;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s161;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s162;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s163;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s164;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s165;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s166;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s167;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s168;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s169;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s170;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s171;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s172;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s173;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s174;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s175;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s176;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s177;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s178;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s179;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s180;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s181;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s182;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s183;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s184;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s185;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s186;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s187;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s188;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s189;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s190;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s191;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s192;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s193;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s194;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s195;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s196;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s197;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s198;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s199;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s200;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s201;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s202;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s203;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s204;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s205;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s206;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s207;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s208;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s209;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s210;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s211;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s212;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s213;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s214;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s215;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s216;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s217;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s218;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s219;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s220;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s221;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s222;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s223;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s224;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s225;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s226;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s227;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s228;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s229;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s230;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s231;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s232;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s233;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s234;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s235;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s236;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s237;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s238;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s239;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s240;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s241;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s242;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s243;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s244;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s245;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s246;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s247;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s248;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s249;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s250;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s251;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s252;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s253;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s254;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s255;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s256;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s257;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s258;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s259;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s260;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s261;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s262;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s263;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s264;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s265;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s266;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s267;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s268;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s269;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s270;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s271;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s272;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s273;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s274;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s275;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s276;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s277;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s278;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s279;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s280;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s281;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s282;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s283;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s284;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s285;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s286;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s287;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s288;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s289;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s290;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s291;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s292;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s293;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s294;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s295;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s296;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s297;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s298;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s299;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s300;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s301;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s302;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s303;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s304;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s305;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s306;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s307;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s308;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s309;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s310;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s311;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s312;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s313;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s314;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s315;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s316;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s317;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s318;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s319;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s320;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s321;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s322;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s323;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s324;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s325;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s326;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s327;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s328;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s329;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s330;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s331;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s332;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s333;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s334;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s335;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s336;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s337;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s338;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s339;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s340;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s341;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s342;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s343;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s344;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s345;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s346;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s347;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s348;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s349;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s350;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s351;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s352;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s353;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s354;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s355;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s356;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s357;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s358;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s359;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s360;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s361;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s362;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s363;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s364;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s365;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s366;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s367;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s368;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s369;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s370;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s371;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s372;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s373;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s374;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s375;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s376;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s377;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s378;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s379;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s380;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s381;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s382;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s383;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s384;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s385;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s386;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s387;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s388;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s389;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s390;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s391;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s392;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s393;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s394;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s395;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s396;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s397;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s398;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s399;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s400;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s401;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s402;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s403;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s404;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s405;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s406;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s407;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s408;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s409;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s410;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s411;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s412;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s413;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s414;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s415;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s416;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s417;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s418;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s419;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s420;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s421;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s422;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s423;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s424;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s425;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s426;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s427;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s428;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s429;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s430;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s431;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s432;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s433;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s434;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s435;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s436;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s437;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s438;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s439;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s440;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s441;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s442;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s443;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s444;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s445;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s446;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s447;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s448;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s449;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s450;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s451;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s452;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s453;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s454;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s455;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s456;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s457;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s458;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s459;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s460;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s461;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s462;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s463;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s464;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s465;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s466;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s467;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s468;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s469;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s470;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s471;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s472;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s473;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s474;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s475;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s476;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s477;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s478;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s479;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s480;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s481;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s482;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s483;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s484;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s485;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s486;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s487;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s488;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s489;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s490;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s491;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s492;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s493;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s494;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s495;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s496;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s497;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s498;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s499;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s500;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+
+ROLLBACK TO SAVEPOINT s250;
+\set aid (random(1, 100000 * :scale))
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+END;

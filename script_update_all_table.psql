@@ -1,0 +1,4 @@
+\set delta 10
+BEGIN;
+UPDATE pgbench_accounts SET abalance = abalance + :delta;
+END;
