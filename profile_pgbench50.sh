@@ -42,4 +42,7 @@ echo script5
 ../FlameGraph/flamegraph.pl perf_savepoint50_L3-lm.perf_out > perf_save50_L3-lm.svg
 ../FlameGraph/flamegraph.pl perf_savepoint50_L3-sm.perf_out > perf_save50_L3-sm.svg
 
+rm perf_savepoint50*
+
+
 echo done

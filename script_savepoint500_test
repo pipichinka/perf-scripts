@@ -1,0 +1,1510 @@
+\set delta 10
+\set aid (random(1, 100000 * :scale))
+ 
+BEGIN;
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s1;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s2;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s3;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s4;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s5;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s6;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s7;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s8;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s9;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s10;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s11;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s12;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s13;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s14;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s15;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s16;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s17;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s18;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s19;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s20;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s21;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s22;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s23;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s24;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s25;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s26;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s27;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s28;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s29;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s30;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s31;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s32;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s33;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s34;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s35;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s36;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s37;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s38;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s39;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s40;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s41;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s42;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s43;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s44;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s45;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s46;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s47;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s48;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s49;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s50;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s51;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s52;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s53;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s54;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s55;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s56;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s57;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s58;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s59;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s60;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s61;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s62;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s63;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s64;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s65;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s66;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s67;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s68;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s69;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s70;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s71;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s72;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s73;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s74;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s75;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s76;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s77;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s78;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s79;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s80;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s81;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s82;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s83;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s84;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s85;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s86;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s87;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s88;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s89;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s90;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s91;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s92;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s93;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s94;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s95;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s96;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s97;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s98;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s99;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s100;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s101;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s102;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s103;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s104;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s105;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s106;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s107;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s108;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s109;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s110;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s111;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s112;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s113;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s114;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s115;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s116;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s117;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s118;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s119;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s120;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s121;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s122;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s123;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s124;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s125;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s126;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s127;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s128;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s129;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s130;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s131;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s132;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s133;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s134;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s135;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s136;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s137;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s138;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s139;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s140;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s141;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s142;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s143;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s144;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s145;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s146;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s147;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s148;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s149;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s150;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s151;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s152;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s153;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s154;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s155;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s156;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s157;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s158;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s159;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s160;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s161;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s162;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s163;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s164;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s165;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s166;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s167;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s168;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s169;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s170;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s171;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s172;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s173;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s174;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s175;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s176;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s177;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s178;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s179;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s180;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s181;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s182;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s183;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s184;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s185;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s186;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s187;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s188;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s189;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s190;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s191;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s192;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s193;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s194;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s195;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s196;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s197;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s198;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s199;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s200;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s201;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s202;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s203;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s204;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s205;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s206;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s207;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s208;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s209;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s210;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s211;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s212;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s213;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s214;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s215;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s216;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s217;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s218;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s219;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s220;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s221;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s222;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s223;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s224;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s225;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s226;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s227;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s228;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s229;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s230;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s231;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s232;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s233;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s234;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s235;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s236;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s237;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s238;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s239;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s240;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s241;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s242;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s243;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s244;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s245;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s246;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s247;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s248;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s249;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s250;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s251;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s252;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s253;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s254;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s255;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s256;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s257;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s258;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s259;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s260;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s261;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s262;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s263;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s264;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s265;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s266;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s267;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s268;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s269;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s270;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s271;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s272;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s273;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s274;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s275;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s276;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s277;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s278;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s279;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s280;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s281;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s282;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s283;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s284;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s285;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s286;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s287;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s288;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s289;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s290;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s291;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s292;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s293;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s294;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s295;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s296;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s297;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s298;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s299;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s300;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s301;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s302;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s303;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s304;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s305;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s306;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s307;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s308;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s309;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s310;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s311;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s312;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s313;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s314;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s315;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s316;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s317;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s318;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s319;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s320;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s321;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s322;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s323;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s324;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s325;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s326;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s327;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s328;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s329;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s330;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s331;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s332;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s333;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s334;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s335;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s336;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s337;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s338;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s339;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s340;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s341;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s342;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s343;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s344;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s345;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s346;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s347;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s348;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s349;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s350;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s351;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s352;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s353;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s354;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s355;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s356;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s357;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s358;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s359;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s360;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s361;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s362;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s363;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s364;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s365;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s366;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s367;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s368;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s369;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s370;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s371;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s372;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s373;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s374;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s375;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s376;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s377;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s378;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s379;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s380;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s381;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s382;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s383;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s384;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s385;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s386;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s387;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s388;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s389;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s390;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s391;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s392;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s393;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s394;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s395;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s396;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s397;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s398;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s399;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s400;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s401;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s402;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s403;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s404;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s405;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s406;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s407;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s408;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s409;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s410;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s411;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s412;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s413;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s414;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s415;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s416;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s417;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s418;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s419;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s420;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s421;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s422;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s423;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s424;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s425;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s426;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s427;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s428;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s429;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s430;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s431;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s432;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s433;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s434;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s435;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s436;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s437;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s438;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s439;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s440;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s441;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s442;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s443;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s444;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s445;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s446;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s447;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s448;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s449;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s450;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s451;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s452;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s453;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s454;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s455;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s456;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s457;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s458;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s459;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s460;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s461;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s462;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s463;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s464;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s465;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s466;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s467;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s468;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s469;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s470;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s471;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s472;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s473;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s474;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s475;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s476;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s477;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s478;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s479;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s480;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s481;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s482;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s483;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s484;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s485;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s486;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s487;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s488;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s489;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s490;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s491;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s492;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s493;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s494;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s495;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s496;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s497;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s498;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s499;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+SAVEPOINT s500;
+
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+
+ROLLBACK TO SAVEPOINT s250;
+ 
+UPDATE pgbench_accounts SET abalance = abalance + :delta where aid = :aid;
+END;

@@ -1,0 +1,41 @@
+pgbench (17devel)
+starting vacuum...end.
+progress: 30.0 s, 8.5 tps, lat 117.497 ms stddev 48.132, 0 failed
+progress: 60.0 s, 8.4 tps, lat 118.917 ms stddev 47.549, 0 failed
+progress: 90.0 s, 8.2 tps, lat 122.066 ms stddev 128.767, 0 failed
+progress: 120.0 s, 8.9 tps, lat 111.777 ms stddev 25.937, 0 failed
+progress: 150.0 s, 8.5 tps, lat 117.562 ms stddev 54.561, 0 failed
+progress: 180.0 s, 9.3 tps, lat 107.182 ms stddev 17.915, 0 failed
+progress: 210.0 s, 9.2 tps, lat 108.920 ms stddev 26.876, 0 failed
+progress: 240.0 s, 9.5 tps, lat 105.643 ms stddev 11.155, 0 failed
+progress: 270.0 s, 9.0 tps, lat 110.985 ms stddev 20.895, 0 failed
+progress: 300.0 s, 9.0 tps, lat 111.131 ms stddev 24.182, 0 failed
+progress: 330.0 s, 9.0 tps, lat 110.652 ms stddev 39.401, 0 failed
+progress: 360.0 s, 9.5 tps, lat 104.569 ms stddev 7.020, 0 failed
+progress: 390.0 s, 9.0 tps, lat 111.731 ms stddev 41.000, 0 failed
+progress: 420.0 s, 9.4 tps, lat 106.507 ms stddev 26.431, 0 failed
+progress: 450.0 s, 9.0 tps, lat 111.168 ms stddev 25.235, 0 failed
+progress: 480.0 s, 9.3 tps, lat 107.705 ms stddev 26.037, 0 failed
+progress: 510.0 s, 9.3 tps, lat 107.713 ms stddev 30.519, 0 failed
+progress: 540.0 s, 9.4 tps, lat 106.567 ms stddev 16.708, 0 failed
+progress: 570.0 s, 9.4 tps, lat 107.055 ms stddev 20.724, 0 failed
+
+transaction type: script_savepoint500
+scaling factor: 20
+query mode: simple
+number of clients: 1
+number of threads: 1
+maximum number of tries: 1
+duration: 600 s
+number of transactions actually processed: 5439
+number of failed transactions: 0 (0.000%)
+latency average = 110.314 ms
+latency stddev = 40.280 ms
+initial connection time = 2.558 ms
+tps = 9.064927 (without initial connection time)
+
+
+
+
+
+
